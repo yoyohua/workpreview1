@@ -1,0 +1,522 @@
+body {
+  margin: 0;
+  background-color: #1b1f28;
+  width: 100%;
+  min-height: 600px;
+  background-image: url(../images/content/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.warp {
+	width: 100%;
+  height: auto;
+	position: relative;
+}
+.content{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;  
+  min-height: 800px;
+}
+
+
+.muen{
+  width: 100%;
+  height: 30px;
+  background-color: rgba(44, 44, 51, 0.9);
+  position: absolute;
+  top: 42px;
+}
+.muen ul {
+  width: 1200px;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+}
+.muen ul .logo-s {
+  background-image: url(../images/content/logo-s.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.muen ul li ,.muen ul li a{
+  width: 80px;
+  height: 30px;
+  float: left;
+  display: inline-block;
+  color: #afafaf;
+  text-align: center;
+  -webkit-line-height: 30px;
+  line-height: 35px;
+  font-size: 12px;
+}
+.muen ul li a:hover ,.muen ul li a.active{
+  width: 80px;
+  height: 30px;
+  float: left;
+  display: inline-block;
+  color: #68b8be;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+
+.header {
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/content/bg-top.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+/*-------------------------------------------------------------*/
+
+
+/*-----------------------標題-------------------------------*/
+.article-title {
+	width: 100%;
+  padding: 2% 4%;
+	box-sizing:border-box;
+  overflow: hidden;
+}
+.article-title .article-titlebox {
+	float: left;
+	height: 70px;
+	width: 50%;
+	line-height: 70px;
+	display: block;
+	overflow: hidden;
+	box-sizing: border-box;
+
+}
+/*圖片大標 新聞公告*/
+.article-title .title01 {
+  background-image: url(../images/content/c-title03.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+/*遊戲資料*/
+.article-title .title02 {
+  background-image: url(../images/content/c-title01.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+/*伺服器列表*/
+.article-title .title03 {
+  background-image: url(../images/content/c-title02.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.article-title .article-titlebox h1 {
+	font-size: 24px;
+	line-height: 70px;
+	color: #000;
+	display: inline-block;
+}
+.article-title .article-titlebox h2 {
+	font-size: 20px;
+	color: #000;
+	line-height: 70px;
+	display: inline-block;
+}
+.article-title .article-titlebox p {
+	text-align: right;
+	display: inline-block;
+	font-size: 12px;
+	color: #c6c6c6;
+	float: right;
+}
+.article-title .article-titlebox p .article-fot {
+	color: #c6c6c6;
+}
+.article-title .article-titlebox p .article-fot:hover {
+	color: #68b8be;;
+}
+
+
+/*------------------------------------------------------------------------*/
+/*伺服器 最新消息 遊戲資料 各文章 內容*/
+.server_conter ,.news_conter ,.games_conter ,.essay-content{
+	width: 100%;
+	padding-right: 50px;
+	padding-left: 50px;
+	box-sizing: border-box;
+	padding-bottom: 5%;
+}
+
+/*-----------------------------server--------------------------------------*/
+.server_conter .server_box {
+	width: 100%;
+	display: block;
+	margin-top: 3%;
+}
+.server_conter .server_box h1 {
+  height: 40px;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  line-height: 40px;
+  color: #406494;
+  text-align: left;
+  font-size: 16px;
+  border-bottom: thin solid #406494;
+  box-sizing: border-box;
+}
+.server_conter .server_box .server_title01 {
+  height: 50px;
+  width: 100%;
+  background-image: url(../images/content/sever_title01.png);
+  background-repeat: no-repeat;
+}
+.server_conter .server_box .server_title02 {
+  height: 50px;
+  width: 100%;
+  background-image: url(../images/content/sever_title02.png);
+  background-repeat: no-repeat;
+}
+.server_conter .server_box .server_title03 {
+  height: 50px;
+  width: 100%;
+  background-image: url(../images/content/sever_title03.png);
+  background-repeat: no-repeat;
+}
+
+.server_conter .server_box .server_list {
+	min-height: 80px;
+	overflow: hidden;
+  padding: 0 5% 0 15%;
+  margin: 0 auto;
+}
+.server_conter .server_box .server_list li {
+  float: left;
+  height: 38px;
+  width: 115px;
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: all 600ms ease;
+  background-image: url(../images/content/sever_btn.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 1%;
+}
+.server_conter .server_box .server_list li:hover {
+  float: left;
+  height: 38px;
+  width: 115px;
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: all 600ms ease;
+  background-image: url(../images/content/sever_btn_hover.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 1%;
+}
+
+.server_conter .server_box .server_list li a {
+	font-size: 12px;
+	line-height: 38px;
+  color: #C3DCDD;
+	text-align: center;
+	display: block;
+}
+.server_conter .server_box .server_list li a:hover {
+  color: #C3DCDD;
+}
+
+
+/*--------------------------------news-----------------------------------*/
+
+.news_conter .news-classification {
+	display: block;
+	height: 80px;
+	width: 100%;
+	box-sizing: border-box;
+	padding-top: 20px;
+  position: relative;
+}
+.news_conter .news-classification ul {
+  width: 60%;
+	display: flex;
+  position: absolute;
+  left: 50%;
+  margin-left: -30%;
+  justify-content: space-between;
+}
+.news_conter .news-classification ul li {
+  width: 137px;
+  height: 58px;
+	float: left;
+  margin: 0 0.5%;
+	display: block;
+}
+.news_conter .news-classification ul li a {
+  width: 137px;
+  height: 58px;
+	display: block;
+	transition: all 600ms ease;
+}
+
+/*最新消息*/
+.news-latestNews {
+  width: 137px;
+  height: 58px;
+  background-image: url(../images/content/btn01.png);
+  background-repeat: no-repeat;
+}
+/*維護公告*/
+.news-maintenance {
+  width: 137px;
+  height: 58px;
+  background-image: url(../images/content/btn02.png);
+  background-repeat: no-repeat;
+}
+/*活動訊息*/
+.news-eventMessage {
+  width: 137px;
+  height: 58px;
+  background-image: url(../images/content/btn03.png);
+  background-repeat: no-repeat;
+
+}
+/*新聞訊息*/
+.news-pressRelease {
+  width: 137px;
+  height: 58px;
+  background-image: url(../images/content/btn04.png);
+  background-repeat: no-repeat;
+}
+
+/*最新消息*/
+.news-latestNews:hover ,.news-latestNews:active ,.news-latestNews.active {
+  width: 137px;
+  height: 58px;
+  background-image: url(../images/content/btn01_hover.png);
+  background-repeat: no-repeat;
+}
+/*維護公告*/
+.news-maintenance:hover ,.news-maintenance:active ,.news-maintenance.active {
+  width: 137px;
+  height: 58px;
+  background-image: url(../images/content/btn02_hover.png);
+  background-repeat: no-repeat;
+}
+/*活動訊息*/
+.news-eventMessage:hover ,.news-eventMessage:active ,.news-eventMessage.active {
+  width: 137px;
+  height: 58px;
+  background-image: url(../images/content/btn03_hover.png);
+  background-repeat: no-repeat;
+}
+/*新聞訊息*/
+.news-pressRelease:hover ,.news-pressRelease:active ,.news-pressRelease.active{
+  width: 137px;
+  height: 58px;
+  background-image: url(../images/content/btn04_hover.png);
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+/*消息列表*/
+.news_conter .news-content {
+	width: 100%;
+	min-height: 100px;
+}
+.news_conter .news-content ul li {
+	display: block;
+	height: 80px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #538582;
+	box-sizing: border-box;
+	transition: all 600ms ease;
+}
+.news_conter .news-content ul li:hover {
+	display: block;
+	height: 80px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #538582;
+	box-sizing: border-box;
+	transition: all 600ms ease;
+  background-color: #538582;
+}
+
+.news_conter .news-content ul li a {
+	font-size: 14px;
+	line-height: 80px;
+	color: #dddedf;
+	display: block;
+	transition: all 600ms ease;
+}
+.news_conter .news-content ul li a:hover {
+	color: #fff;
+	transition: all 600ms ease;
+}
+
+.news_conter .news-content ul li a .to {
+	display: block;
+	float: left;
+	height: 80px;
+	width: 8%;
+	text-align: center;
+	overflow: hidden;
+}
+.news_conter .news-content ul li a .laer {
+	display: block;
+	float: left;
+	height: 80px;
+	width: 80%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.news_conter .news-content ul li a .date {
+	display: block;
+	float: left;
+	height: 80px;
+	width: 12%;
+	text-align: right;
+	overflow: hidden;
+  padding-right: 2%;
+  box-sizing: border-box;
+}
+/*-----------------------------games------------------------*/
+
+.games_conter .games-box {
+	width: 100%;
+}
+.games_conter .games-box .games-subtitle {
+  width: 100%;
+	height: 30px;
+	box-sizing:border-box;
+	position: relative;
+  margin: 3% 0;
+}
+.games_conter .games-box .subtitle01 {
+  background-image: url(../images/content/data_title01.png);
+  background-repeat: no-repeat;
+}
+.games_conter .games-box .subtitle02 {
+  background-image: url(../images/content/data_title02.png);
+  background-repeat: no-repeat;
+}
+.games_conter .games-box .subtitle03 {
+  background-image: url(../images/content/data_title03.png);
+  background-repeat: no-repeat;
+}
+.games_conter .games-box .games-subtitle h3 {
+	font-size: 14px;
+	line-height: 30px;
+	color: #FFF;
+	background-color: #570b75;
+	text-align: center;
+	display: block;
+	height: 30px;
+	width: 90px;
+	box-sizing:border-box;
+	border-radius: 50px 500px 0px 500px;
+	position:relative;
+	z-index:10;
+	margin-left:-20px;
+}
+.games_conter .games-box .games-list {
+	display: inline-block;
+	width: 100%;
+	padding-right: 5%;
+	padding-left: 15%;
+	overflow: hidden;
+	min-height: 100px;
+	box-sizing:border-box;
+}
+.games_conter .games-box .games-list ul li {
+  float: left;
+  height: 32px;
+  width: 120px;
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: all 600ms ease;
+  background-image: url(../images/content/data_btn.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 1%;
+}
+.games_conter .games-box .games-list ul li:hover {
+  float: left;
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: all 600ms ease;
+  background-image: url(../images/content/data_btn_hover.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.games_conter .games-box .games-list ul li a {
+	font-size: 12px;
+	line-height: 30px;
+  color: #C3DCDD;
+	text-align: center;
+	display: block;
+}
+.games_conter .games-box .games-list ul li a:hover {
+  color: #C3DCDD;
+}
+
+/*-------------------------內頁------------------------------------*/
+
+.essay_conter .essay-title {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #538582;
+	padding-right: 3%;
+	padding-left: 3%;
+	box-sizing: border-box;
+	margin-right: 30px;
+	margin-left: 30px;
+	display: block;
+	overflow: hidden;
+}
+.essay_conter .essay-title h3 {
+	font-size: 22px;
+	color: #68b8be;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+}
+.essay_conter .essay-title span {
+	font-size: 12px;
+	color: #ccc;
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: center;
+	height: 30px;
+}
+
+.essay_conter .essay-content {
+	min-height: 600px;
+	width: 100%;
+  color: #FFFFFF;
+}
